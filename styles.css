@@ -68,3 +68,77 @@ h1
     border: 5px solid #cbac36;
     border-radius: 50%;
 }
+
+/* Design Mine Bot */
+.character
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.c_upper_body
+{
+    width: 150px;
+    margin: 45px auto;
+}
+
+.c_top
+{
+    height: 80px;
+    background-color: aqua;
+    width: 150px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 20%;
+}
+
+.c_lower_body
+{
+    width: 120px;
+    margin: -10px auto;
+}
+
+.c_roller
+{
+    background-color: red;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.c_wheels
+{
+    height: 30px;
+    width: 30px;
+    background-color:  green;
+    border-radius: 50%;
+    display: inline-block;
+    margin: -7px 5px;
+}
+
+
+/* Design game interface */
+.game_interface
+{
+    background:  linear-gradient(180deg, cyan 0%, #87CEEB);
+    height: 60%;
+    border-bottom: 5px solid grey;
+}
+
+.game_background
+{
+    height: 70%;
+}
+
+.ground
+{
+    height: 30%;
+    border-top: 2px solid black;
+    background-color:  #9B7653;
+}
+
+.editor
+{
+    height: 30%;
+}
